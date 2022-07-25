@@ -1,0 +1,55 @@
+body {
+    background-color: aliceblue;
+    color: lightslategray;
+
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-style: normal;
+
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-decoration: none;
+    text-transform: none;
+    text-align: unset;
+    vertical-align: auto;
+
+    width: auto;
+    height: auto;
+    padding: auto;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: none;
+
+    position: absolute;
+    top: auto;
+    z-index: 0;
+
+    display: inline-block;
+}
+
+a:hover {
+    background-color: aqua;
+    color: orange;
+}
+
+a:visited {
+    background-color: grey;
+    color: white;   
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+p:first-child {
+    opacity: 0.8;
+}
